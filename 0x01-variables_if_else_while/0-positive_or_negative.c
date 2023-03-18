@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - [WRITE A SHORT DESCRIPTION HERE]
+ * main - c programming
  *
  *Return: 0
  */

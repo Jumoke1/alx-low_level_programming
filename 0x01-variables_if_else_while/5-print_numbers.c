@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - [WRITE A SHORT DESCRIPTION HERE]
+ * main - betty ways
  * Return: 0
  */
 int main(void)
