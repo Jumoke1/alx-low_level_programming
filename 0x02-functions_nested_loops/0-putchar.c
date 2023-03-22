@@ -1,12 +1,18 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - c programming
- * Return 0
+ * main - putchar file
+ * Return: 0
  */
-int main(void)
+int _putchar(void);
 {
-putchar("_putchar");
-putchar('\n')
-/*Return 0 to indicate successful execution*/
+putchar("_");
+putchar("p");
+putchar("u");
+putchar("t");
+putchar("c");
+putchar("h");
+putchar("a");
+putchar("r");
+putchar('\n');
 return (0);
 }
