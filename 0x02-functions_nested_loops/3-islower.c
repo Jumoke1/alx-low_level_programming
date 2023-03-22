@@ -4,13 +4,13 @@
  * @c: c is lower case
  * Return 0 otherwise return 1
  */
-int_islower(int c)
+int _islower(int c)
 {
 if (c == "c")
 {
 return (1);
 }
-iiiielse
+else
 {
 return (0);
 }
