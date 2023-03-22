@@ -10,7 +10,7 @@ if (c == "c")
 {
 return (1);
 }
-else
+iiiielse
 {
 return (0);
 }
