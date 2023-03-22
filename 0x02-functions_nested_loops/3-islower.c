@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * int _islower - int islower
- * @c: c is lower case
- * Return 0 otherwise return 1
+ *_islower - lower
+ *@c: c is lowercase
+ *Return: 1 if c is lowercase, otherwise 0
  */
 int _islower(int c)
 {
-if (c == "c")
+if (c == 'c')
 {
 return (1);
 }
