@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _abs - abs
- * @:a parameter to be checked
+ * @a: parameter to be checked
  * Return: always a
  */
 int _abs(int a)
