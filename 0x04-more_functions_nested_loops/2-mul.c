@@ -3,9 +3,9 @@
  * mul - mul
  * @a: multiplies two integer
  * @b: mutiplies two integer
- * Return: 0
+ * Return: the value  of the mutiplied integer
  */
 int mul(int a, int b)
 {
-int a * b
+return (a * b);
 }
