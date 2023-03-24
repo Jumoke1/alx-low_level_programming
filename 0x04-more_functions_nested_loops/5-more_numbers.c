@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * more_numbers - more num
- * Return: value
+ * 
  */
 void more_numbers(void)
 {
