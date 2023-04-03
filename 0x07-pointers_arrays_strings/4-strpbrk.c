@@ -3,7 +3,7 @@
  * *_strpbrk - locate first occurrence
  * @s: sting
  * @accept: pointer
- * Return:
+ * Return: ('\0');
  */
 char *_strpbrk(char *s, char *accept)
 {
