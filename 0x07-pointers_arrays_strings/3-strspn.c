@@ -1,14 +1,13 @@
 #include "main.h"
 /**
- * int _strspn - get length of a string
+ * _strspn - get length of a string
  * @s: pointer
  * @accept: pointer
- * Return: 0;
+ * Return: i;
  */
 unsigned int _strspn(char *s, char *accept)
 {
-unsigned int i;
-unsigned int j;
+unsigned int i, j;
 
 for (i = 0; s[i]; i++)
 {
