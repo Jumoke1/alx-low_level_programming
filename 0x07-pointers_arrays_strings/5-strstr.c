@@ -17,6 +17,7 @@ while (*p == *j && *p != '\0')
 p++;
 j++;
 }
+
 if (*p == '\0')
 return (haystack);
 }
