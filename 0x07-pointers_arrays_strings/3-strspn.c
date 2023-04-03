@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _strspn - get length of a string 
+ * int _strspn - get length of a string
  * @s: pointer
  * @accept: pointer
  * Return: 0;
@@ -14,7 +14,7 @@ for (i = 0; s[i]; i++)
 {
 for (j = 0; accept[j]; j++)
 {
-if (s[i] == accept)
+if (s[i] == accept[j])
 {
 break;
 }
@@ -23,6 +23,5 @@ if (!accept[j])
 break;
 }
 }
-}
-return (a);
+return (i);
 }
