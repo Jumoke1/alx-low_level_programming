@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _helper - the helper that print the prime number
+ * _helper - The helper that print prime number
  * @n: character
  * @s: character
  * Return: n
@@ -19,17 +19,17 @@ return (0);
 }
 return (_helper(n, s - 1));
 }
-
 /**
- * is_prime_number - return input integer
- * @n: string
- * Return: return 1 otherwise return 0
+ * is_prime_number - integer that print prime number
+ * @n: character
+ * Return: n
  */
 
 int is_prime_number(int n)
 {
 if (n <= 1)
+{
 return (0);
 }
-return (-helper(n, n - 1));
+return (_helper(n, n - 1));
 }
