@@ -4,10 +4,10 @@
  * _helper - The helper of natural square root
  * @n: number
  * @s: character
- * Return : natural numbers
+ * Return: natural numbers
  */
 
-int _helper (int n, int s)
+int _helper(int n, int s)
 {
 	if (s * s > n)
 	{
@@ -20,10 +20,11 @@ int _helper (int n, int s)
 	else
 		return (_helper(n, s + 1));
 }
+
 /**
  * _sqrt_recursion - function return natural square root
  * @n: number
- * Return : natural numbers
+ * Return: n
  */
 
 int _sqrt_recursion(int n)
