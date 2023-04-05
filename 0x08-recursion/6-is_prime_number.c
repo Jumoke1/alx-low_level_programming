@@ -28,8 +28,8 @@ return (_helper(n, s - 1));
 
 int is_prime_number(int n)
 {
-if (n <= 0)
-{
-return (-helper(n, n - 1));
+if (n <= 1)
+return (0);
 }
+return (-helper(n, n - 1));
 }
