@@ -4,7 +4,7 @@
 #include <ctype.h>
 /**
  * main - add positive numbers
- * @argc: argument count 
+ * @argc: argument count
  * @argv: argument vector
  * Return: (0) else 1;
  */
