@@ -6,21 +6,24 @@
  * @argv: argument vector
  * Return: (1);
  */
-int main(int argc, char *argv[])
-{
-int i = 0;
-int j = 0;
+int main(int argc, char *argv)
 
-if (argc == 3)
+int main(int argc, char **argv)
 {
-i = atoi(argv[1]);
-j = atoi(argv[2]);
-printf("%d\n", i * j);
-}
-else
-{
-printf("Error\n");
-return (1);
-}
-return (0);
+	int i, j, sum = 0;
+
+	for (i = 1; i < argc; i++)
+	{
+		for (j = 0; argv[i][j]; j++)
+		{
+			if (!isdigit(argv[i][j]))
+			{
+				printf("%s\n", "Error");
+				return (1);
+			}
+		}
+		sum += atoi(argv[i]);
+	}
+	printf("%i\n", sum);
+	return (0);
 }
