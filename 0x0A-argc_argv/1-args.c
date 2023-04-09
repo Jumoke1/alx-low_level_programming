@@ -8,13 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-int i;
-
 printf("argc = %d\n", argc);
-for (i = 0; i < argc; i++)
-{
-/* print the num of argument %d is for printing the index */
-printf("argv[%d] = %s\n", i, argv[i]);
-}
+
 return (0);
 }
