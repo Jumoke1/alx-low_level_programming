@@ -8,15 +8,14 @@
  */
 int main(int argc, char *argv[])
 {
-int i;
-int j;
-int result;
+int i = 0;
+int j = 0;
 
-if (argc != '3')
+if (argc == 3)
 {
 i = atoi(argv[1]);
 j = atoi(argv[2]);
-printf("%s\n", i *j);
+printf("%d\n", i * j);
 }
 else
 {
