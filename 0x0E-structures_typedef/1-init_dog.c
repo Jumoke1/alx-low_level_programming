@@ -1,4 +1,4 @@
-#include "dog_h"
+#include "dog.h"
 #include <stdlib.h>
 /**
  * init_dog - a function that initalize a variable
