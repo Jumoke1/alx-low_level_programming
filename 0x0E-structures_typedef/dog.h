@@ -13,14 +13,12 @@ char *name;
 float age;
 char *owner;
 };
-/* initialize the struct dog */
-struct dog my_dog = {
-"nina",
-3.5,
-"jums"
-};
-printf("my dog name is %s\n", my_dog.name);
-printf("my dog is %.years old\n", my_dog.age);
-printf("my dog owner is %s\n", my_dog.age);
+/* typedef struct dog */
+typedef struct dog my_dog;
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
 
 #endif
