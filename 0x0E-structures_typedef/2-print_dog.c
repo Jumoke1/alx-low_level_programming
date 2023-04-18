@@ -1,5 +1,6 @@
 #include "dog.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * print_dog - print the struct dog
  * @d: structure variable
@@ -12,18 +13,18 @@ if (d->name  == NULL)
 
 printf("name:(nill)\n");
 
-else 
-printf("Name:%s\n",d->name);
+else
+printf("Name:%s\n", d->name);
 
 if (d->age < 0)
 printf("age: (nill)\n");
 
-else 
-printf("Name:%f\n",d->age);
+else
+printf("Name:%f\n", d->age);
 
 if (d->owner == NULL)
 printf("Owner: (nill)\n");
 
-else 
-printf("owner:%s\n",d->owner);
+else
+printf("owner:%s\n", d->owner);
 }
