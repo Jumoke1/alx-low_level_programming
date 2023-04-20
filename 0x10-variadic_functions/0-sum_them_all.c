@@ -4,7 +4,9 @@
  * @n: no of argument
  * Return: sum
  */
+
 int sum_them_all(const unsigned int n, ...)
+
 {
 unsigned int i;
 int sum = 0;
