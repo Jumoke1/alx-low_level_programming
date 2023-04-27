@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdio.h>
+
 /**
  * free_list - a function that free a list
  * @head: member
