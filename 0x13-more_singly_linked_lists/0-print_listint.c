@@ -1,6 +1,4 @@
 #include "lists.h"
-#include <stdio.h>
-
 /**
  * print_listint - print all the element of a list
  * @h: pointer
@@ -12,7 +10,7 @@ size_t i = 0;
 
 while (h != NULL)
 {
-printf("%d\n", h->n)
+printf("%d\n", h->n);
 h = h->next;
 i++;
 }
