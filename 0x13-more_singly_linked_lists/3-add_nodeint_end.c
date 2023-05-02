@@ -12,19 +12,19 @@ listint_t *a;
 listint_t *t = *head;
 
 a = malloc(sizeof(listint_t));
-if (i == NULL)
-return (NULL)
+if (a == NULL)
+return (NULL);
 
 a->n = n;
 a->next = NULL;
 
 if (*head == NULL)
 {
-*head = a
+*head = a;
 return (a);
 }
 while (t->next)
-t = temp->next
+t = t->next;
 
 t->next = a;
 
