@@ -10,7 +10,7 @@ int z;
 
 unsigned int k = 0;
 
-if (b == NULL)
+if (!b)
 return (0);
 
 for (z = 0; b[z]; z++)
