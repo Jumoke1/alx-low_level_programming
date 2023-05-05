@@ -11,7 +11,7 @@ unsigned long  int presentbit;
 
 for (a = 63; a >= 0; a--)
 {
-presentbit = n  >> a;
+presentbit = n >> a;
 
 if (presentbit & 1)
 {
@@ -22,5 +22,5 @@ else if (addup)
 _putchar('0);
 }
 if(!addup)
-_putchar('0')
+_putchar('0');
 }
