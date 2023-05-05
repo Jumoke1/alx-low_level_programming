@@ -10,6 +10,7 @@ addup = 0;
 unsigned long  int presentbit;
 
 for (a = 63; a >= 0; a--)
+{
 presentbit = n  >> a;
 
 if (presentbit & 1)
@@ -17,11 +18,9 @@ if (presentbit & 1)
 _putchar('1');
 addup++;
 }
-else
-{
-(addup == 0)
-_putchar('0');
+else if (addup)
+_putchar('0);
 }
-if (!addup)
-_putchar('0');
+if(!addup)
+_putchar('0')
 }
