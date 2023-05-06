@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stddef.h>
 /**
  * print_binary - a function that prints the binary representation of a number
@@ -6,7 +7,7 @@
 void print_binary(unsigned long int n)
 {
 int a;
-addup = 0;
+int addup = 0;
 unsigned long int j;
 
 for (a = 63; a >= 0; a--)
