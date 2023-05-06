@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stddef.h>
 /**
  * print_binary - a function that prints the binary representation of a number
