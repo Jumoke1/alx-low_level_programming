@@ -22,7 +22,7 @@ return (-1);
 
 if (text_content != NULL)
 {
-b  = write(i, text_content, strlen(text_context));
+b  = write(i, text_content, strlen(text_content));
 
 if (b == 1)
 {
