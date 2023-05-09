@@ -11,12 +11,13 @@ ssize_t read_textfile(const char *filename, size_t letters)
 ssize_t a, read_b, write_c;
 
 char *buff_temp;
+
 if (filename == NULL)
 return (0);
 
 a = open(filename, O_RDONLY);
 
-if (a == 1)
+if (a == -1)
 return (0);
 
 buff_temp = malloc(sizeof(char) * letters);
