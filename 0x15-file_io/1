@@ -23,7 +23,7 @@ dprintf(STDERR_FILENO,
 exit(99);
 }
 
-return (ten);
+return (ten)
 }
 
 /**
