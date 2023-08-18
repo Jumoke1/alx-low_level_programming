@@ -1,14 +1,20 @@
 #include "lists.h"
+
 /**
- * dlistint_len - function to print number of linked list
- * @h:pointer to the head
- * Return: length
+ * dlistint_len - function to count the number of element
+ * @h: pointer to the head of the list
+ * Return: number of elements in the list
  */
-size_t dlistint_len(const dlistint_t *h);
+size_t dlistint_len(const dlistint_t *h)
 {
-size_t c = 0
-	for (; h != NULL; h = h->next, c++;)
-	{
-		printf("[%u] %s\n", h->len)
-	}
+size_t c = 0;
+
+while (h != NULL)
+{
+printf("[%d]\n", h->n);
+h = h->next;
+c++;
+}
+
 return (c);
+}
