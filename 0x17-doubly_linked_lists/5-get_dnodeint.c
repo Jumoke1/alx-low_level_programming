@@ -4,7 +4,6 @@
  * get_dnodeint_at_index - a function that returns the nth node
  * @head: the head of dlistint_t list.
  * @index: the node to locate.
- *
  * Return: pointer to located
  */
 
