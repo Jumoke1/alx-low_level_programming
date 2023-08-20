@@ -23,3 +23,4 @@ if (*head != NULL)
 *head = newnode;
 
 return (newnode);
+}
