@@ -1,11 +1,11 @@
 #include "lists.h"
-/*
+/**
  * *add_dnodeint - a function add a node
  * @head: a pointer to the head
  * @n: the integer
  * Return: a pointer
  */
-dlistint_t *add_dnodeint(dlistint_t **head, const int n);
+dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 
 dlistint_t *newnode = malloc(sizeof(dlistint_t));
