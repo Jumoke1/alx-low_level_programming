@@ -21,11 +21,10 @@ newnode1->n = n
 newnode1->next = NULL;
 
 if (*head == NUL)
-{
+
 newnode1->prev = NULL;
 *head = newnode1;
 return (newnode1);
-}
 
 newnode2 = *head;
 while (newnode2->next != NULL)
