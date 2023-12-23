@@ -22,7 +22,6 @@ hash_table_t *new_table;
 /* check if the allocation failed hence free the*/
 /* memory that was allocated to prevent memory leaks*/
 	if (new_table->array == NULL)
-	free(new_table);
 	return (NULL);
 
 /*intiallize array element to null */
